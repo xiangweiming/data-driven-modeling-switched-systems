@@ -44,6 +44,8 @@ Note: This code is for a DC-DC modeling example. A complete data-driven tool is 
 </figure>
 
 
+3) systemSim_dcdc.m generate the state response figure, switching instant figure. 
+
 <figure>
     <img src="/image/fig5.png" width="400"> <figcaption>Reconstructed Switchings.</figcaption>
 </figure>
@@ -55,9 +57,6 @@ Note: This code is for a DC-DC modeling example. A complete data-driven tool is 
 <figure>
     <img src="/image/fig4.png" width="400"> <figcaption>State Trajectories.</figcaption>
 </figure>
-
-
-3) systemSim_dcdc.m generate the state response figure, switching instant figure. 
 
 
 
