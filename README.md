@@ -22,7 +22,9 @@ Note: This code is for a DC-DC modeling example. A complete data-driven tool is 
 2) train_dcdc.m generates a data-driven model. A switching detection ('systemInfo.subsystem', 'switchInfo.outputDataSegmented', 'switchInfo.switchTime'), reconstructed switching ('systemInfo.segmentIndex'), and ELMs ('systemInfo.subsystem') are obtained.
 
 
+
 	switchInfo = 
+
 	    struct with fields:
 	    
 	    inputDataSegmented: {1×100 cell}
@@ -30,6 +32,7 @@ Note: This code is for a DC-DC modeling example. A complete data-driven tool is 
 	    switchTime: [1×101 double]
 
 	systemInfo = 
+
 	    struct with fields:
 	    
 	    subsystem: {[1×1 struct]  [1×1 struct]}
