@@ -23,7 +23,7 @@ Note: This code is for a DC-DC modeling example. A complete data-driven tool is 
 
 
 
-	switchInfo = 
+	    switchInfo = 
 
 	    struct with fields:
 	    
@@ -31,7 +31,7 @@ Note: This code is for a DC-DC modeling example. A complete data-driven tool is 
 	    outputDataSegmented: {1×100 cell}
 	    switchTime: [1×101 double]
 
-	systemInfo = 
+	    systemInfo = 
 
 	    struct with fields:
 	    
