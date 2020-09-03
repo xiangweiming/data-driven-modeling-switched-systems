@@ -12,11 +12,11 @@ Note: This code is for a DC-DC modeling example. A complete data-driven tool is 
 1) trace_generate_dcdc.m generates traces from the DC-DC model and one random state response. Numbers of traces numX0 = 20 and length of simulation K_train = 1000 are initialized, you can change to any numbers (positive integer). One state response is plotted. 
 
 <figure>
-    <img src="/images/dcdc.png" width="400"> <figcaption>DC-DC Converter Topology.</figcaption>
+    <img src="/image/dcdc.png" width="400"> <figcaption>DC-DC Converter Topology.</figcaption>
 </figure>
 
 <figure>
-    <img src="/images/fig1.png" width="400"> <figcaption>One Random State Response.</figcaption>
+    <img src="/image/fig1.png" width="400"> <figcaption>One Random State Response.</figcaption>
 </figure>
 
 2) train_dcdc.m generates a data-driven model. A switching detection (systemInfo.subsystem, switchInfo.outputDataSegmented, switchInfo.switchTime), reconstructed switching (systemInfo.segmentIndex), and ELMs (systemInfo.subsystem) are obtained.
@@ -37,20 +37,20 @@ systemInfo =
     segmentIndex: {[1×50 double]  [1×50 double]}
 
 <figure>
-    <img src="/images/fig2.png" width="400"> <figcaption>Switching Detection.</figcaption>
+    <img src="/image/fig2.png" width="400"> <figcaption>Switching Detection.</figcaption>
 </figure>
 
 
 <figure>
-    <img src="/images/fig5.png" width="400"> <figcaption>Reconstructed Switchings.</figcaption>
+    <img src="/image/fig5.png" width="400"> <figcaption>Reconstructed Switchings.</figcaption>
 </figure>
 
 <figure>
-    <img src="/images/fig3.png" width="400"> <figcaption>State Responeses.</figcaption>
+    <img src="/image/fig3.png" width="400"> <figcaption>State Responeses.</figcaption>
 </figure>
 
 <figure>
-    <img src="/images/fig4.png" width="400"> <figcaption>State Trajectories.</figcaption>
+    <img src="/image/fig4.png" width="400"> <figcaption>State Trajectories.</figcaption>
 </figure>
 
 
